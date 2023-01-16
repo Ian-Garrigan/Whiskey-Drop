@@ -1,0 +1,88 @@
+body {
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+
+.navbar {
+color: #f4f4f4;
+}
+
+.alert-container {}
+
+.features-container {}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #f4f4f4;
+}
+
+.jumbotron-header, .lead {
+    color: #ffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.fav-whiskey-container {}
+.quotes-container {}
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/whiskey-drop.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.55);
+}
+
+
+/* block dividers */
+
+.block-divider {
+    width: 40vw;
+    height: 6px;
+    background-color: rgb(154, 60, 60);
+    border: 0;
+}
+
+/* buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 20px;
+    width: 160px;
+}
+
+.btn--red {
+    color: black;
+     background-color: rgb(154, 60, 60);
+     border-color: rgb(154, 60, 60);
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: rgb(207, 64, 64);
+    border-color: rgb(207, 64, 64);
+    color: white;
+}
