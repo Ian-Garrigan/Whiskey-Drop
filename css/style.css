@@ -2,14 +2,50 @@ body {
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
-
 .navbar {
-color: #f4f4f4;
+    color: #f4f4f4;
 }
 
-.alert-container {}
+.alert-container {
+    padding: 0;
+}
+
+.alert-warning {
+    border-radius: 0;
+    text-align: center;
+}
 
 .features-container {}
+
+/* navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(154, 60, 60, 0.75);
+}
+
+.navbar .navbar-brand {
+    font-size: 24px;
+}
+
+.navbar .navbar-nav a {
+    font-size: 16px;
+}
+
+.navbar .navbar-toggler {
+    border: 0px;
+}
 
 /* jumbotron */
 
@@ -23,13 +59,15 @@ color: #f4f4f4;
     color: #f4f4f4;
 }
 
-.jumbotron-header, .lead {
+.jumbotron-header,
+.lead--white {
     color: #ffff;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .fav-whiskey-container {}
+
 .quotes-container {}
 
 .callout-container {
@@ -51,7 +89,7 @@ color: #f4f4f4;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 
@@ -74,15 +112,15 @@ color: #f4f4f4;
 
 .btn--red {
     color: black;
-     background-color: rgb(154, 60, 60);
-     border-color: rgb(154, 60, 60);
+    background-color: rgb(180, 56, 56);
+    border-color: rgb(154, 60, 60);
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: rgb(207, 64, 64);
-    border-color: rgb(207, 64, 64);
+    background-color: rgb(154, 60, 60);
+    border-color: rgb(154, 60, 60);
     color: white;
 }
