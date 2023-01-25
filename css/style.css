@@ -68,6 +68,31 @@ body {
 
 .fav-whiskey-container {}
 
+/* page headers  */
+.page-header { 
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page.header h2 {
+    margin-top: 0;
+}
+
+/* content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* container wrappers */
+
+.container-wrapper--red {
+background-color: rgb(154, 60, 60);
+color: white;
+}
+
 .quotes-container {}
 
 .callout-container {
