@@ -79,6 +79,10 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header { 
+    margin-bottom: 30px;
+}
+
 /* content containers */
 
 .content-container {
@@ -127,6 +131,10 @@ color: white;
     border: 0;
 }
 
+.block-divider--white {
+    background-color: #f4f4f4;
+}
+
 /* buttons */
 
 .btn--cta {
@@ -148,4 +156,16 @@ color: white;
     background-color: rgb(154, 60, 60);
     border-color: rgb(154, 60, 60);
     color: white;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+feature i {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
 }
